@@ -7,7 +7,7 @@ import { reduce, take, tap } from "rxjs/operators";
  *      1st parámetro: Función que recibe (Acc) es el valor acumulado, (Curr) es el valor de la emisión 
  *      actual y la definicón del método
  *      Último parámetro es el valor inicial del acumulador.
- * No habrá emisión en el subscribe hasta que se complete el 'observable'.
+ * No habrá emisión en el subscribe hasta que se complete el 'observable'!!!
  */
 
  const observer = {
