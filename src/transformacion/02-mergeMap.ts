@@ -2,7 +2,7 @@ import { fromEvent, interval, of } from "rxjs";
 import { map, mergeMap, take, takeUntil } from "rxjs/operators";
 
 /**
- * MergeMap: Operador de aplaneamiento (trabajar con 'observables' que regresan 'observables' y al final
+ * MergeMap: Operador de aplanamiento (trabajar con 'observables' que regresan 'observables' y al final
  * regresan productos).
  *  No tiene límites de subscripciones internas y todas pueden estar activas simultáneamente.
  *  Todos los 'observables', incluido el padre, se deben completar para finalizarlo.
